@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFsumitDemo"
+		},
+		"LS_AzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"TR_Copy_Files_properties_typeProperties_scope": {
+			"value": "/subscriptions/45a00cbf-bd65-4648-8c89-69af0f40c48c/resourceGroups/RG-Sumit/providers/Microsoft.Storage/storageAccounts/storageaccountsumit"
+		}
+	}
+}
